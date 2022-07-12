@@ -1,0 +1,228 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-family: aileron, sans-serif;
+  font-size: 10px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* * {
+  outline: 1px solid gray;
+} */
+
+/* header nav * {
+  display: block;
+} */
+
+/* header nav {
+  width: 20%;
+}
+
+nav > * {
+  float: left;
+  width: 50%;
+} */
+
+/* nav > * {
+  float: left;
+  width: 20%;
+  height: 100vh;
+} */
+/* 
+ul {
+  padding: 3% 1%;
+} */
+
+/* main {
+  float: left;
+  width: 50%;
+}
+
+main + section {
+  float: left;
+  width: 30%;
+} */
+
+
+
+/* header * {
+  display: block;
+}
+
+header nav > * {
+  float: left;
+  margin: 1% 1%;
+  width: 10%;
+  height: 10%;
+} 
+
+ul {
+  list-style: none;
+  padding: 5% 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  float: left;
+  width: 50%;
+}
+
+main > section + section {
+  float: left;
+  width: 40%;
+}
+
+main + section {
+  float: left;
+  width: 100%;
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body > div:first-child {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********** HEADER  ***********/
+
+/* nav {
+  display: flex;
+  flex-direction: row;
+} */
+
+nav a + a {
+  color: #fcc008;
+  font-family: aileron, sans-serif;
+  font-weight: 1000;
+}
+
+nav a {
+  color: #a1a1a1;
+}
+
+nav * {
+  display: block;
+}
+
+nav li {
+  font-size: 1.3rem;
+  padding-top: 10%;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  padding: 1%;
+}
+
+main span {
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* header {
+  display: inline-block;
+  width: 20%;
+} */
+
+/* main {
+  width: 50%;
+}
+
+div {
+  width: 30%;
+}
+
+
+main img {
+  width: 30%;
+} */
+
+/* 
+
+nav, main, div {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+form, ul, li, a {
+  width: 10px;
+} */
+
+.test {
+  font-size: 2rem;
+  font-family: aileron, sans-serif;
+  font-weight: 1000;
+}
+
+a {
+  color: black;
+}
+
+.bottom-border {
+  border-bottom: 1px solid lightgray;
+  margin-right: 15px;
+}
+
+aside section {
+  padding: 10px;
+}
+
+aside section span {
+  display: block;
+  padding-top: 2%;
+}
+
+div + div h1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+body > div + div {
+  margin-left: 10.5%;
+}
+
+div + div h3 {
+  padding-bottom: 1%;
+}
+
+div + div section {
+  display: flex;
+}
+
