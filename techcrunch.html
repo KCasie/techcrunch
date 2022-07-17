@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TechCrunch</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/yqj7tky.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
@@ -12,13 +15,15 @@
     <body>
 
         <div>
-            <header class="clearfix clear">
+            <header class="clearfix clear margin">
                 <nav>
                     <a href="#"><img src="https://i.imgur.com/5uKDGSX.png" alt="TC"></a>
                     <a href="#">Join Extra Crunch+</a>
-                    <span>Login</span>
-                    <span>Search</span>
-                    <img src="#" alt="search icon">
+                    <span class="login">Login</span>
+                    <div>
+                        <span class="space">Search</span>
+                        <img src="https://i.imgur.com/owLqV6W.png" alt="search icon">
+                    </div>
                     <ul>
                         <li><a href="#">Startups</a></li>
                         <li><a href="#">TechCrunch+</a></li>
@@ -37,7 +42,7 @@
                     <a href="#">
                         <h1 class="test">What China's fintech market can teach the world</h1>
                         <span>Danny Crichton</span>
-                        <img src="http://placekitten.com/700/400" alt="Martin videochatting">
+                        <img src="http://placekitten.com/900/450" alt="Martin videochatting">
                     </a>
                 </section>
             </main>
@@ -62,18 +67,34 @@
             </aside>
         </div>
 
-        <div class="clearfix clear bottom">
+        <div class="clearfix clear">
 
             <h3 class="bottom-border">The Latest</h3>
-            <section>
-                <a href="#">
-                    <section>
+            <section class="bottom">
+                <a href="#" class="groupoflinks bottom-border">
+                    <section class="column">
                         <h1 class="test">Snapchat says it's getting better at finding illicit drug dealers before users do</h1>
                         <span>Taylor Hatmaker</span>
                         <span>11:15AM PST | January 18, 2022</span>
                     </section>
                     <section>
                         <p>Snapchat has faced increasing criticism in recent years as the opioid crisis plays out on social media, often with tragic results. In October, an NBC investigation reported the stories of a number ...</p>
+                    </section>
+                    <section>
+                        <img src="http://placekitten.com/400/250" alt="Snapchat">
+                    </section>
+                </a>
+            </section>
+
+            <section class="bottom">
+                <a href="#" class="groupoflinks bottom-border">
+                    <section class="column">
+                        <h1 class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quidem.</h1>
+                        <span>Mister Hatmaker</span>
+                        <span>6:40AM PST | January 11, 2022</span>
+                    </section>
+                    <section>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in magni reprehenderit ea eaque ipsum officiis quas necessitatibus temporibus, assumenda voluptate consectetur?</p>
                     </section>
                     <section>
                         <img src="http://placekitten.com/400/250" alt="Snapchat">

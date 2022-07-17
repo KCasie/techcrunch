@@ -112,6 +112,18 @@ body > div:first-child {
   display: flex;
 }
 
+header {
+  flex-basis: 5%;
+}
+
+main {
+  flex-basis: 55%;
+}
+
+aside {
+  flex-basis: 40%;
+}
+
 a {
   text-decoration: none;
 }
@@ -153,6 +165,7 @@ main span {
   display: block;
   padding-top: 1%;
   padding-bottom: 1%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* header {
@@ -200,13 +213,18 @@ a {
   margin-right: 15px;
 }
 
+aside section:first-child {
+  margin-top: 10px;
+}
+
 aside section {
-  padding: 10px;
+  padding: 15px;
 }
 
 aside section span {
   display: block;
   padding-top: 2%;
+  font-family: 'Roboto', sans-serif;
 }
 
 div + div h1 {
@@ -215,14 +233,87 @@ div + div h1 {
 }
 
 body > div + div {
-  margin-left: 10.5%;
+  margin-left: 11%;
 }
 
 div + div h3 {
   padding-bottom: 1%;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
 div + div section {
   display: flex;
+}
+
+.space {
+  padding-top: 30%;
+  color: #a1a1a1;
+  font-size: 1.3rem;
+  padding-right: 7px;
+}
+
+.margin {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.login {
+  color: #a1a1a1;
+  padding-top: 10px;
+}
+
+/* .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column span {
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  color: #474444;
+  font-weight: 700;
+}
+
+.column span:last-child, .bottom section+section {
+  color: gray;
+}
+
+.groupoflinks {
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+
+.bottom section + section {
+  padding: 0 50px 0 50px;
+  line-height: 22px;
+}
+
+nav img {
+  width: 50%;
+}
+
+nav div {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+nav div img {
+  padding-top: 30%;
+  width: 19%;
+}
+
+aside img {
+  width: 7%;
 }
 
